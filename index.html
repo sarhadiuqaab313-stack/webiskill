@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webiskill - Modern Web Design</title>
+    <meta name="description" content="Build Your Identity With a Modern website. Responsive, user-friendly websites.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Custom Mouse Cursor with Sparks -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="gradient-text">Webi</span>skill<span class="dot">.</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="https://wa.me/923295431127" class="btn btn-primary" target="_blank">Call Now</a>
+            <button class="mobile-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-container grid-2-col">
+            <div class="hero-content fade-in-up">
+                <h1 class="hero-title">
+                    Build Your <span class="gradient-text type-effect">Identity</span><br>
+                    With a <span class="highlight">Modern</span><br>
+                    Website
+                </h1>
+                <p class="hero-desc">
+                    We design responsive, user-friendly websites that not only look great but also align perfectly with
+                    your brand’s vision, purpose, and audience goals.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/923295431127" class="btn btn-primary btn-lg" target="_blank">
+                        Order Now <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-outline btn-lg">View Projects</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-text">Projects Done</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-text">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image float-anim fade-in-up delay-1">
+                <!-- Web Design AI Illustration -->
+                <img src="hero.png" alt="Web Design Illustration" class="hero-img glass-card hover-lift">
+                <!-- Circular floating element -->
+                <div class="floating-badge glass-card fade-in-up delay-2">
+                    <i class="fab fa-react glow-icon"></i>
+                    <span>Modern Tech</span>
+                </div>
+                <div class="floating-badge badge-2 glass-card fade-in-up delay-3">
+                    <i class="fas fa-mobile-alt glow-icon"></i>
+                    <span>Responsive</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Skills Section -->
+    <section id="services" class="skills-section section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                <p class="section-subtitle">Delivering high-quality digital solutions tailored to your needs</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card glass-card hover-lift fade-in-up">
+                    <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Web Designing</h3>
+                    <p>Crafting stunning, semantic layouts that capture attention.</p>
+                </div>
+                <div class="skill-card glass-card hover-lift fade-in-up delay-1">
+                    <div class="skill-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3>Woo Commerce</h3>
+                    <p>Building robust e-commerce platforms to grow your business.</p>
+                </div>
+                <div class="skill-card glass-card hover-lift fade-in-up delay-2">
+                    <div class="skill-icon"><i class="fas fa-vector-square"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive interfaces focused on profound user experiences.</p>
+                </div>
+                <div class="skill-card glass-card hover-lift fade-in-up">
+                    <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Responsive Web Design</h3>
+                    <p>Fluid designs that adapt flawlessly across all devices and screen sizes.</p>
+                </div>
+                <div class="skill-card glass-card hover-lift fade-in-up delay-1">
+                    <div class="skill-icon"><i class="fas fa-search"></i></div>
+                    <h3>Website SEO</h3>
+                    <p>Optimizing for search engines to drive organic traffic.</p>
+                </div>
+                <div class="skill-card glass-card hover-lift fade-in-up delay-2">
+                    <div class="skill-icon"><i class="fab fa-shopify"></i></div>
+                    <h3>Shopify Development</h3>
+                    <p>Setting up sleek, high-conversion Shopify storefronts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Performance Section -->
+    <section id="about" class="about-section section-padding dark-bg">
+        <div class="container grid-2-col align-center">
+            <div class="about-image-wrap fade-in-up">
+                <div class="glass-card about-glass p-relative">
+                    <h3 class="mb-4">Few Reasons to Choose Our Services</h3>
+                    <p class="text-light">As a skilled web designer, I craft visually engaging and user-friendly
+                        websites that effectively showcase your brand, ensuring a seamless and impactful online
+                        presence.</p>
+                    <div class="feature-list mt-4">
+                        <div class="feature-item"><i class="fas fa-check-circle text-primary"></i> QUALITY Work</div>
+                        <div class="feature-item"><i class="fas fa-check-circle text-primary"></i> Ongoing Support</div>
+                        <div class="feature-item"><i class="fas fa-check-circle text-primary"></i> Timely Delivery</div>
+                        <div class="feature-item"><i class="fas fa-check-circle text-primary"></i> Affordable Pricing
+                        </div>
+                    </div>
+                </div>
+                <div class="blob blob-1"></div>
+            </div>
+            <div class="about-content fade-in-up delay-1">
+                <span class="badge">About Us</span>
+                <h2 class="section-title mt-2">My <span class="gradient-text">Performance</span></h2>
+                <p class="about-desc">
+                    I consistently deliver high-quality, responsive websites focusing on user experience and performance
+                    optimisation. My work ensures fast load times, seamless navigation, and visually appealing designs
+                    that align with client goals. I am committed to continuous improvement and staying updated with the
+                    latest industry trends.
+                </p>
+                <div class="progress-bars mt-4">
+                    <div class="progress-item">
+                        <div class="progress-info">
+                            <span>Web Design</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-bg">
+                            <div class="progress-fill" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="progress-info">
+                            <span>Development</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bg">
+                            <div class="progress-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="progress-info">
+                            <span>UI/UX</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="progress-bg">
+                            <div class="progress-fill" style="width: 88%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="projects" class="portfolio-section section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Explore My <span class="gradient-text">Portfolio</span></h2>
+                <p class="section-subtitle">Crafted with creativity and precision to deliver engaging digital
+                    experiences.</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <a href="https://tahfeezulquran.com/" target="_blank" class="portfolio-card glass-card fade-in-up">
+                    <div class="portfolio-img-wrap">
+                        <img src="https://webiskill.com/wp-content/uploads/elementor/thumbs/Screenshot-2026-02-20-235143-rjg1svvu19lj3mnrczlso8rj6m4ib1m9t757xetmq8.png"
+                            alt="Tahfeezulquran">
+                        <div class="portfolio-overlay">
+                            <span class="view-btn">View Website <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Tahfeezulquran</h3>
+                        <span>Islamic Institute</span>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="https://knowledgethroughlearning.com/" target="_blank"
+                    class="portfolio-card glass-card fade-in-up delay-1">
+                    <div class="portfolio-img-wrap">
+                        <img src="https://webiskill.com/wp-content/uploads/elementor/thumbs/Screenshot-2025-12-15-153227-rg6tgwqw1g6czqbye21948xxn9hvh77e3qignrvmfk.png"
+                            alt="KTL">
+                        <div class="portfolio-overlay">
+                            <span class="view-btn">View Website <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>KTL</h3>
+                        <span>Education</span>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="https://wiseapparels.com/" target="_blank"
+                    class="portfolio-card glass-card fade-in-up delay-2">
+                    <div class="portfolio-img-wrap">
+                        <img src="https://webiskill.com/wp-content/uploads/elementor/thumbs/Screenshot-2025-09-20-125547-rc0xjji15zykk06qmgwhowqanpmdn1ssetzml3a79s.png"
+                            alt="Wiseapparels">
+                        <div class="portfolio-overlay">
+                            <span class="view-btn">View Website <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Wiseapparels</h3>
+                        <span>E-Commerce</span>
+                    </div>
+                </a>
+
+                <!-- Project 4 -->
+                <a href="https://equranzone.com/" target="_blank" class="portfolio-card glass-card fade-in-up">
+                    <div class="portfolio-img-wrap">
+                        <img src="https://webiskill.com/wp-content/uploads/elementor/thumbs/Screenshot-2025-09-20-125103-rc0xlh237qlsf5dpcayvtf6em83jgngxce9k3kf2hc.png"
+                            alt="eQuran Zone">
+                        <div class="portfolio-overlay">
+                            <span class="view-btn">View Website <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>eQuran Zone</h3>
+                        <span>Online Learning</span>
+                    </div>
+                </a>
+
+                <!-- Project 5 -->
+                <a href="https://kmjeesoft.com/" target="_blank" class="portfolio-card glass-card fade-in-up delay-1">
+                    <div class="portfolio-img-wrap">
+                        <img src="https://webiskill.com/wp-content/uploads/elementor/thumbs/Screenshot-2025-09-20-124046-rc0xh8s8gktc6biw1h5blhlqdsy2tooergkwcqouhc.png"
+                            alt="Kmjee Soft">
+                        <div class="portfolio-overlay">
+                            <span class="view-btn">View Website <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Kmjee Soft</h3>
+                        <span>Software Agency</span>
+                    </div>
+                </a>
+
+                <!-- Project 6 -->
+                <a href="https://uloomulhuda.com/" target="_blank" class="portfolio-card glass-card fade-in-up delay-2">
+                    <div class="portfolio-img-wrap">
+                        <img src="https://webiskill.com/wp-content/uploads/elementor/thumbs/Screenshot-2025-09-20-124236-rc0xhfd3sf2cfl9bz1zpkxxyji1nbkej4d5apof39s.png"
+                            alt="Uloom Ul Huda">
+                        <div class="portfolio-overlay">
+                            <span class="view-btn">View Website <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Uloom Ul Huda</h3>
+                        <span>Islamic Foundation</span>
+                    </div>
+                </a>
+
+            </div>
+            <div class="text-center mt-5 fade-in-up">
+                <a href="#" class="btn btn-outline btn-lg">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <section id="contact" class="contact-section footer section-padding dark-bg">
+        <div class="footer-blobs">
+            <div class="blob w-lg h-lg right bottom opacity-20"></div>
+        </div>
+        <div class="container">
+            <div class="contact-cta glass-card text-center fade-in-up">
+                <h2 class="mb-2">Ready to Start Your Project?</h2>
+                <p class="mb-4">Let's craft something amazing together. Reach out to us for your next modern website.
+                </p>
+                <div class="contact-methods">
+                    <a href="mailto:turaabi313@gmail.com" class="btn btn-outline mx-2">
+                        <i class="fas fa-envelope"></i> Send an Email
+                    </a>
+                    <a href="https://wa.me/923295431127" class="btn btn-primary mx-2" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Message Us
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-grid mt-5">
+                <div class="footer-col fade-in-up">
+                    <a href="#" class="logo mb-3">
+                        <span class="gradient-text">Webi</span>skill<span class="dot">.</span>
+                    </a>
+                    <p class="text-gray mb-4">We are passionate web designers dedicated to crafting modern, responsive,
+                        and user-friendly websites that help individuals and businesses grow their digital presence.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61569297650457" target="_blank"
+                            class="glass-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/923295431127" target="_blank" class="glass-icon"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:turaabi313@gmail.com" class="glass-icon"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col fade-in-up delay-1">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col fade-in-up delay-2">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info-list">
+                        <li>
+                            <i class="fas fa-envelope gradient-text"></i>
+                            <a href="mailto:turaabi313@gmail.com">turaabi313@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone gradient-text"></i>
+                            <a href="https://wa.me/923295431127">+92 329 5431127</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom mt-5 text-center fade-in-up">
+                <p>&copy; 2026 Webiskill.com. All Rights Reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
